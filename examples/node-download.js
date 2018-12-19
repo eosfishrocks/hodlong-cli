@@ -21,4 +21,4 @@ client.add(torrentId, torrent => {
             if (!length) process.exit()
         }).pipe(destination)
     })
-})
+}
